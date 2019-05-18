@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.topo {
+    height: 30px;
+    background-color: #303030;
+    color: #fff;
+}
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+.topoleft {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.toporight {
+    width: 50%;
+    height: 28px;
+    float: right;
+    color: white;
+    margin-top: 2px;
+}
+.topoleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+.topoleft li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoleft li a {
+    text-decoration: none;
+    color: #fff;
+}
+.topoleft li a:hover {
+    color: blue;
+    text-transform: uppercase;
+}
+.topobusca {
+    width: 110px;
+    height: 26px;
+    outline: 0;
+}
+.toporight a {
+    float: right;
+}
+.toporight input {
+    float: right;
+}
+.toporight img {
+    margin-right: 4px;
+}
+.topo2 {
+    height: 95px;
+}
+.topo2int {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+
+.logo {
+    width: 230px;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+}
+.topo2 .banner {
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: #c80203;
+}
+.menu {
+    height: 40px;
+    background-color: #d50000;
+}
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.submenu {
+    width: 150px;
+    background-color: #d50000;
+    position: absolute;
+    display: none;
+}
+.submenuitem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.submenuitem:hover {
+    background-color: #ff5555
+}
+.ultimasnoticias {
+    height: 40px;
+}
+.ultimasnoticiasint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;;
+    margin: auto;
+}
+.ultnoticiasarea {
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.ultnoticiastitulo {
+    background-color: #e40b1c;
+    color: #FFF;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.ultnoticiasnoticia {
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.containerint {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    background-color: #999;
+}
+.rightside {
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    background-color: #999;
+    margin-left: 12px;
+}
+.leftside {
+    width: 753px;
+    float: left;
+    background: #999;
+    min-height: 200px;
+}
