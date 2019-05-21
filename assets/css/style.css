@@ -169,9 +169,7 @@ body {
 }
 .leftside {
     width: 753px;
-    min-height: 200px;
     float: left;
-    background-color: #999; 
 }
 .rightside {
     width: 275px;
@@ -207,4 +205,20 @@ body {
 .noticia_item a {
     text-decoration: none;
     color: #000;
+}
+.slideshow {
+    height: 335px;
+    background-color: #999;
+    overflow: hidden; /*Oculta o conteúdo ao passar da área*/
+}
+.slideshowarea {
+    height: 335px;
+    background-color:#000; 
+}
+.slide {
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
